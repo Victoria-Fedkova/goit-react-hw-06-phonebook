@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/goit-react-hw-06-phonebook/static/css/main.4c59546b.css",
+    "main.js": "/goit-react-hw-06-phonebook/static/js/main.229a6ca0.js",
+    "static/media/writing-pad-3202747_1920.jpg": "/goit-react-hw-06-phonebook/static/media/writing-pad-3202747_1920.a5e4ed7d209ab2a2c892.jpg",
+    "static/media/Delete-button.svg": "/goit-react-hw-06-phonebook/static/media/Delete-button.97a44f28eab6fa0f36f05a37f4658dab.svg",
+    "index.html": "/goit-react-hw-06-phonebook/index.html",
+    "main.4c59546b.css.map": "/goit-react-hw-06-phonebook/static/css/main.4c59546b.css.map",
+    "main.229a6ca0.js.map": "/goit-react-hw-06-phonebook/static/js/main.229a6ca0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c59546b.css",
+    "static/js/main.229a6ca0.js"
+  ]
+}
