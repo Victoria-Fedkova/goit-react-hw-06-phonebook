@@ -20,7 +20,7 @@ const ContactList = () => {
   const filter = useSelector(getFilter);
   const visibleContacts = getVisibleContacts(contacts, filter);
 
-  return visibleContacts ? (
+  return visibleContacts.length > 0 ? (
     <div>
       <Table>
         <thead>
