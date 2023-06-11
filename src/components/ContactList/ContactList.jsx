@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import { Table, TableHead } from './ContatcList.styled';
 import ContactListRow from './ContactListRow/';
 import { useSelector } from 'react-redux';
@@ -41,16 +40,6 @@ const ContactList = () => {
   ) : (
     <p>It's empty. You don't have any contacts.</p>
   );
-};
-
-ContactList.propeTypes = {
-  contacts: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.string.isRequired,
-      name: PropTypes.string,
-      number: PropTypes.string,
-    })
-  ).isRequired,
 };
 
 export default ContactList;
