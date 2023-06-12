@@ -13,7 +13,7 @@ const ContactForm = () => {
     const number = e.currentTarget.elements.number.value;
 
     if (
-      contacts.find(
+      contacts?.find(
         contact => contact.name.toLowerCase() === name.toLowerCase()
       )
     ) {
